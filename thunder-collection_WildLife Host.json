@@ -1,0 +1,97 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "WildLife Host",
+    "dateExported": "2024-02-15T14:46:23.788Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "a9254671-ebd7-46b8-818a-15b48398d1fd",
+            "colId": "0da442b0-43fa-469a-b774-b01039360282",
+            "containerId": "",
+            "name": "FootPrint",
+            "url": "http://13.53.174.110/footprint",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-24T16:02:34.172Z",
+            "modified": "2024-02-15T14:45:50.181Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "d:\\Freelance\\WildLife\\wildLifeAPI\\AllAPI\\footprint\\wildboar (29).jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "ff2a6870-4711-4a70-8150-b0699096d114",
+            "colId": "0da442b0-43fa-469a-b774-b01039360282",
+            "containerId": "",
+            "name": "mushroom",
+            "url": "http://13.53.174.110/mushroom",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-24T16:02:34.174Z",
+            "modified": "2024-02-15T14:45:07.284Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "d:\\Freelance\\WildLife\\wildLifeAPI\\mushrooms\\API\\data\\train\\schizophyllum_commune\\37341medium.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a424b033-e454-43f8-8f90-d744c7bcc35b",
+            "colId": "0da442b0-43fa-469a-b774-b01039360282",
+            "containerId": "",
+            "name": "Tent",
+            "url": "http://13.53.174.110/tentSafety",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-24T16:02:34.175Z",
+            "modified": "2023-11-24T16:29:24.962Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"Soil_condition\": \"3\",\n  \"Features_of_the_land\": \"2\",\n  \"Insect_activity\": \"2\",\n  \"surrounding_trees\": \"1\",\n  \"Animal_habitats\": \"1\",\n  \"surrounding_terrain\": \"1\",\n  \"Weather_Condition\": \"1\",\n  \"Wind_Speed\": \"1\",\n  \"Precipitation\": \"1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1869291f-8f57-4dd1-b476-84047e5bf528",
+            "colId": "0da442b0-43fa-469a-b774-b01039360282",
+            "containerId": "",
+            "name": "Bath",
+            "url": "http://13.53.174.110/bathSafety",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-24T16:02:34.176Z",
+            "modified": "2023-11-24T16:29:09.442Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"type\": 2,\n  \"waterflow\": 2,\n  \"waterclarity\": 1,\n  \"wildlife\": 1,\n  \"humanfootprints\": 1,\n  \"terraintype\": 4\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
